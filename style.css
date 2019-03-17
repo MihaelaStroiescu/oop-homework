@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.article {
+    margin: 10px auto;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 80%;
+}
+
+.image {
+    width: 25%;
+    height: 25%;
+}
+
+.post__image {
+    width: 50%;
+    margin: 0 20px;
+}
+
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+.title, .post__title {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0 20px;
+}
+
+
+.content, .post__body {
+    padding: 0 20px;
+
+}
+
+.post__comments {
+    margin: 20px;
+    border: 1px solid grey;
+}
+
+.post__comments li {
+    padding: 20px 0;
+}
